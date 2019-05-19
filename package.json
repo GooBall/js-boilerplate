@@ -1,0 +1,38 @@
+{
+  "name": "js-boilerplate",
+  "version": "1.0.0",
+  "description": "For getting started with React, Express, DiskDB, Parcel, and basic Auth",
+  "main": "src/api/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/api/index.js",
+    "dev": "parcel watch src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GooBall/js-boilerplate.git"
+  },
+  "keywords": [
+    "JS",
+    "Javascript",
+    "React",
+    "Express",
+    "DiskDB",
+    "Parcel"
+  ],
+  "author": "Callum Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GooBall/js-boilerplate/issues"
+  },
+  "homepage": "https://github.com/GooBall/js-boilerplate#readme",
+  "dependencies": {
+    "diskdb": "^0.1.17",
+    "express": "^4.17.0",
+    "passport-google-oauth": "^2.0.0",
+    "path": "^0.12.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  }
+}
